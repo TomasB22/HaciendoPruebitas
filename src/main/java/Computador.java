@@ -9,6 +9,7 @@ public class Computador {
         this.ram = ram;
     }
 
+
     public String getMarca() {
         return marca;
     }
@@ -32,4 +33,14 @@ public class Computador {
     public void setRam(Ram ram) {
         this.ram = ram;
     }
+
+    @Override
+    public String toString() {
+        return "Computador{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", ram=" + ram +
+                '}';
+    }
+
 }

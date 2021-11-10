@@ -32,4 +32,13 @@ public class Ram {
     public void setMHz(int MHz) {
         this.MHz = MHz;
     }
+
+    @Override
+    public String toString() {
+        return "Ram{" +
+                "marcaRam='" + marcaRam + '\'' +
+                ", GB=" + GB +
+                ", MHz=" + MHz +
+                '}';
+    }
 }
