@@ -8,7 +8,8 @@ public class Computador {
         this.modelo = modelo;
         this.ram = ram;
     }
-
+        //askjidbvasijdbasduioasbnd iuyav 1nm23 12hj3123
+    ///asoidjasiodansdoiad
 
     public String getMarca() {
         return marca;
